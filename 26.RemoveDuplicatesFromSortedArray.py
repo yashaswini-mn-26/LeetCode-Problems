@@ -15,3 +15,7 @@ class Solution:
         return i + 1 
 s = Solution()
 print(s.removeDuplicates([1,1,2]))
+
+
+#Time Complexity: O(n)
+#Space Complexity: O(1)
