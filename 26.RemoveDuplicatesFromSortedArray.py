@@ -6,11 +6,8 @@ class Solution:
         i = 0
         for j in range(1, len(nums)):
             if nums[j] != nums[i]: 
-                print("i am printing11",nums[j], nums[i])
                 i += 1
-                print("i am printing22",i)
                 nums[i] = nums[j] 
-                print("i am printing33",nums[i], nums[j])
         
         return i + 1 
 s = Solution()
